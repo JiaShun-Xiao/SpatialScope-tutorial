@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'SpatialScope-tutorial'
+copyright = '2023, Xiaomeng Wan & Jiashun Xiao'
+author = 'Xiaomeng Wan & Jiashun Xiao'
 
 release = '0.1'
 version = '0.1.0'
@@ -17,6 +17,9 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'recommonmark',
+    'sphinx_markdown_tables',
+    'nbsphinx'
 ]
 
 intersphinx_mapping = {
@@ -33,3 +36,9 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+from recommonmark.parser import CommonMarkParser
+source_parsers = {
+    '.md': CommonMarkParser,
+}
+source_suffix = ['.rst', '.md']

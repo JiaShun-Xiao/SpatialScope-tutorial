@@ -1,18 +1,43 @@
-**SpatialScope** 
+SpatialScope
+=============================================
 
+A unified approach for integrating spatial and single-cell transcriptomics data by leveraging deep generative models.
 
+With the learned gene expressions distribution from scRNA-seq reference, SpatialScope can resolve the spot-level seq-based ST data (e.g., Visium) into single-cell resolution. Besides, it can also impute unmeasured genes or correct low-quality genes when applied to higher resolution ST data such as Slideseq and MERFISH. 
+The inferred single-cell resolution transcriptome-wide expression levels can be applied to various downstream analysis, such as fine-grained cell gradients visualization, detection and visualization of spatially resolved cellular communication and identification of spatially DE genes.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+.. image:: mainfig-flowchat.jpg
+   :width: 600
+   :align: center
 
 .. note::
 
    This project is under active development.
 
-Contents
---------
+SpatialScope Manuscript
+------------------
+
+coming soon...
+
+
+SpatialScope Installation
+------------------
 
 .. toctree::
+   :maxdepth: 2
 
-   usage
-   api
+   installation 
+
+
+SpatialScope Tutorials
+------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   notebooks/Human-Heart 
+   notebooks/Mouse-Brain 
+   notebooks/Mouse-Cerebellum-Slideseq
+   notebooks/Mouse-MOp-MERFISH
+   notebooks/Human-Heart-CCell-interaction
+
