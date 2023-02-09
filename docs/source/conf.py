@@ -6,7 +6,7 @@ project = 'SpatialScope-tutorial'
 copyright = '2023, Xiaomeng Wan & Jiashun Xiao'
 author = 'Xiaomeng Wan & Jiashun Xiao'
 
-release = '0.1'
+release = '0.1.0'
 version = '0.1.0'
 
 # -- General configuration
@@ -41,3 +41,8 @@ source_parsers = {
     '.md': CommonMarkParser,
 }
 source_suffix = ['.rst', '.md']
+
+def setup(app):
+    app.add_css_file('my_theme.css')
+
+html_static_path = ['_static']
