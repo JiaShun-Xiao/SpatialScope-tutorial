@@ -7,13 +7,14 @@ With the learned gene expressions distribution from scRNA-seq reference, Spatial
 The inferred single-cell resolution transcriptome-wide expression levels can be applied to various downstream analysis, such as fine-grained cell gradients visualization, detection and visualization of spatially resolved cellular communication and identification of spatially DE genes.
 
 .. image:: mainfig-flowchat.jpg
-   :width: 600
+   :width: 800
    :align: center
 
 .. note::
 
    This project is under active development.
 
+ 
 SpatialScope Manuscript
 ------------------
 
