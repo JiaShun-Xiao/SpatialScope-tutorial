@@ -21,14 +21,14 @@ SpatialScope Manuscript
 coming soon...
 
 
-SpatialScope Installation
+SpatialScope Installation & Usage
 ------------------
 
 .. toctree::
    :maxdepth: 2
 
    installation 
-
+   usage
 
 SpatialScope Tutorials
 ------------------
